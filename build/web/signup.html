@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9557032e05.js" crossorigin="anonymous"></script>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create Your Account</h2>
+        <form action="signupBE">
+            <div class="box">
+                <i class="fa-solid fa-user"></i>
+                <input type="name" id="name" name="name" placeholder="Name" required>
+            </div>
+            
+            
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+             <div class="box">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" name="password" placeholder="Set Password" required>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-keyboard"></i>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter Password" required>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            </div>
+           
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

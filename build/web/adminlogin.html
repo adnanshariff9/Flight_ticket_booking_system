@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/9557032e05.js" crossorigin="anonymous"></script>
+    <title>Login to Cranes Airlines</title>
+    <link rel="stylesheet" href="adminlogin.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Administrator Log In</h2>
+        <!-- Added form tag with the 'action' attribute for redirection -->
+        <form action="adminVerificationBE" method="post">
+
+            <div class="box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <input type="email" name="email" id="email" placeholder="Enter your Admin ID">
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Added 'type="submit"' to the button and 'form' attribute -->
+            <button type="submit">Log in</button>
+        </form>
+    </div>
+</body>
+</html>

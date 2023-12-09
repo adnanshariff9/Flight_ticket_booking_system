@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img1.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-color: #ffffff; /* Background color for fallback */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+label {
+    width: 120px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 32px;
+}
+
+input,
+select,
+button {
+    padding: 8px; 
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px; 
+}
+
+button {
+    width : 130px;
+    margin:auto;
+    position:relative;
+    font-size: medium;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08350a;
+}
+
+#return {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: 5px;
+  }

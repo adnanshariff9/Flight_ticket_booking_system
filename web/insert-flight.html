@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="commoncssfor3file.css">
+    <title>Insert Flight</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Insert Flight</h1>
+        <!-- Corrected the method attribute -->
+        <form action="insertFlightBE" method="post">
+            <label for="flightName">Flight Name:</label>
+            <input type="text" id="flightName" name="flightName" required><br>
+
+            <label for="source">Source:</label>
+            <input type="text" id="source" name="source" required><br>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required><br>
+
+            <!-- Changed input type to "time" -->
+            <label for="departureTime">Departure Time:</label>
+            <input type="time" id="departureTime" name="departureTime" required><br>
+
+            <!-- Changed input type to "time" -->
+            <label for="arrivalTime">Arrival Time:</label>
+            <input type="time" id="arrivalTime" name="arrivalTime" required ><br>
+
+            <!-- Changed input type to "date" -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer and Flight IDs</title>
+    <style>
+        body {
+            background-image: url('f3.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label,
+        input,
+        input[type='submit'] {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input,
+        input[type='submit'] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type='submit'] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type='submit']:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form  method="post" action="cancellationBE"> 
+        
+        <h2> To Cancel your Ticket:</h2> 
+        <label for="email"> Email ID:</label>
+        <input type="text" id="email" name="email" required>
+        
+        
+        <label for="customerid">Customer ID:</label>
+        <input type="text" id="customerId" name="customerid"  required>
+
+        <label for="flightid">Flight ID:</label>
+        <input type="text" id="flightId" name="flightid"  required>
+
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

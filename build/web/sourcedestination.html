@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sourcedestination.css">
+    <title>Flight Search</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Search for Flights:</h1>
+       
+        <div class="search-box">
+            <!-- Opening form tag with proper attributes -->
+            <form action="sourcedestinationBE" method="POST">
+
+                <!-- Source selection -->
+                <label for="source">Source:</label>
+                <select id="source" name="source">
+                    <option value="BANGALORE">BANGALORE</option>
+                    <option value="MUMBAI">MUMBAI</option>
+                    <option value="DELHI">DELHI</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="CHENNAI">CHENNAI</option>
+                    <option value="GOA">GOA</option>
+                </select>
+
+                <!-- Destination selection -->
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="BANGALORE">BANGALORE</option>
+                    <option value="MUMBAI">MUMBAI</option>
+                    <option value="DELHI">DELHI</option>
+                    <option value="HYDERABAD">HYDERABAD</option>
+                    <option value="CHENNAI">CHENNAI</option>
+                    <option value="GOA">GOA</option>
+                </select>
+
+                <!-- Date of Departure input -->
+                <label for="dateofdeparture">Date of Departure:</label>
+                <input type="date" id="dateofdeparture" name="dateofdeparture" required>
+
+                <!-- Submit button -->
+                <input type="submit" value="Search Flights">
+            </form>
+        </div>
+    </div>
+    <script src="sourcedestination.js"></script>
+</body>
+</html>

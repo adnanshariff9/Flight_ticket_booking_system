@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="commoncssfor3file.css">
+    <title>Delete Flight</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Flight</h1>
+        <form action="deleteFlightBE" method="post">
+            <label for="flightId">Enter Flight ID:</label>
+            <input type="text" id="flightId" name="flightId" required>
+            <button type="submit" onclick="deleteFlight()">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

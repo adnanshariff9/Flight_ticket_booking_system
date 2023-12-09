@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('f1.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    border: 2px solid #333; /* Border color */
+
+}
+.admin{
+    width: 93%;
+    margin: 0px;
+    padding: 10px;
+    position: center;
+}
+
+.box{
+    width: 100%;
+    
+}
+.box input{
+    width: 75%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.box i{
+    padding: 0 12px;
+    width: 25px;
+    
+    text-align: center ;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08350a;
+}
