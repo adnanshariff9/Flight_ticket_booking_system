@@ -45,7 +45,17 @@ public class BookingBE extends HttpServlet {
             out.println("<title>Servlet BookingBE</title>");            
             out.println("</head>");
             out.println("<body>"); 
-             out.println("<h1>Your ticket details are</h1>");
+             out.println("<style>");
+            out.println("body { font-family: Arial, sans-serif; }");
+            out.println(".success-message { color: green; }");
+            out.println(".return-button { background-color: green; color: white; padding: 10px 20px; border: none; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }");
+            out.println(".return-button:hover { background-color: darkgreen; }");
+            out.println("</style>");
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<center>");
+            out.println("<h3>Booking status:</h3>");
+            
              
         
                                     
@@ -73,7 +83,9 @@ public class BookingBE extends HttpServlet {
                     out.println("<h1>Booking successfull!</h1>");
                 } else {
                      out.println("<h1>Booking Failed</h1>");
-                }
+                } 
+              out.println("<a href='home2.html' class='return-button'>Return</a>"); 
+              out.println("</center>");
        
         out.println("</body>");
         out.println("</html>");
