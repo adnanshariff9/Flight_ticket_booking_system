@@ -42,15 +42,11 @@
         <img src="disc.jpg" alt="Team Portrait" class="team-portrait">
         
             </section>
-                <button id="cancelButton" onclick="cancelFlight()" style="display: none;">CANCEL BOOKING</button>
+                
             </div>
         </div>
 
-        <div class="data_type">
-            <div class="left_card"></div>
-            <div class="card_month"></div>
-            <div class="right_card"></div>
-        </div>
+       
     </div>
 </div>
 
@@ -73,6 +69,28 @@
 
 <div id="app"></div>
 <script src="app.js"></script>
+<script>
+    
+    const isAuthenticated = false;
 
+
+    function login() {
+    
+        isAuthenticated = true;
+        document.getElementById('user-section').innerHTML = '<h2>Welcome, <span id="email">user@example.com</span>!</h2>';
+    }
+
+  function bookFlight() {
+        if (isAuthenticated) {
+            
+            alert('Flight booked successfully!');
+            document.getElementById('bookButton').style.display = 'none';
+            document.getElementById('cancelButton').style.display = 'inline-block';
+        } else {
+            alert('Please log in to book a flight.');
+        }
+    }
+
+</script>
 </body>
 </html>
