@@ -1,5 +1,6 @@
 # Flight_ticket_booking_system
-A simple full stack web project on Flight ticket booking system, Using Java, JDBC, MySql, JavaScript, CSS and HTML...
+A simple full stack web project on Flight ticket booking system,That seamlessly integrates Create, Read, Update, and Delete (CRUD) functionalities, offering a user-friendly interface for managing flight-related data, Using Java, JDBC, MySql, JavaScript, CSS and HTML...
+
 
 To go to homepage, go the web folder and click on home.html to get all pages running in their required order.
 
