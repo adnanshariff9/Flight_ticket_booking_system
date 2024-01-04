@@ -1,18 +1,5 @@
-# Flight_ticket_booking_system
-A simple full stack web project on Flight ticket booking system,That seamlessly integrates Create, Read, Update, and Delete (CRUD) functionalities, offering a user-friendly interface for managing flight-related data, Using Java, JDBC, MySql, JavaScript, CSS and HTML...
+Developed a streamlined full-stack web application for a Flight Ticket Booking System, seamlessly integrating Create, Read, Update, and Delete (CRUD) functionalities. The project boasts a user-friendly interface, enabling efficient management of flight-related data. Utilizing Java, JDBC, MySQL, JavaScript, CSS, and HTML, I created a simple yet powerful solution.
 
+Navigation to the homepage is straightforward; simply access the 'web' folder and click on 'home.html' to launch all pages in their intended order. The project supports both admin and user panels, with the database included for reference, containing administrator and user passwords.
 
-To go to homepage, go the web folder and click on home.html to get all pages running in their required order.
-
-The environments and softwares i have used for this project are:
-*NetBeans 8.2
-*MySql 5.5
-
-it has both admin and user panel.
-the datbase is also uploaded here, check it for passwords of administrator and users.
-
-if facing issues in backend connectivity, upload the rar file of MySql 5.5 in the libraries part of your netbeans project.
-this project does not have a payment gateway.
-
-
-
+For seamless backend connectivity, consider uploading the MySQL 5.5 RAR file to the libraries section of your NetBeans project if any issues arise. Please note that this project does not include a payment gateway, focusing on core functionalities for an enhanced user experience.
